@@ -8,9 +8,11 @@
 - [Set Up the Environment](#set-up-the-environment)
 - [Deploy Services to Minikube](#deploy-services-to-minikube)
 - [Run Playwright Tests](#run-playwright-tests)
+- [Run the Python script for Health Monitoring](#Run-the-Python-script-for-Health-Monitoring)
 
 ## Introduction
 
+This is a test project
 
 ## Prerequisites
 
@@ -94,3 +96,21 @@ To get the automation report please use
 
 Use the URL obtained from Get the Frontend Service URL step to access the frontend service. Make sure it displays "Hello from the Backend!".
 
+
+## Run the Python script for Health Monitoring
+
+# Application Health Monitoring Script
+
+This Python script monitors the health of an application and system by checking its HTTP status code for application at regular intervals. It logs the status to a file and prints it to the console.
+
+## Python Prerequisites
+- Python 3.x
+- requests library (`pip install requests`)
+- psutil   library (`pip install psutil`)
+
+
+## Run the Script:
+```sh
+python applicationHealthMonitor.py
+python systemHealthMonitor.py
+```
