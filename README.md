@@ -75,6 +75,8 @@ minikube service frontend-service --url
 
 ## Run Playwright Tests
 
+copy the frontend url from the previous step and replace in the script for frontendUrl variable
+
 ```sh
 npm install
 npx tests/accuknox.spec.js OR
