@@ -8,7 +8,7 @@ app_url = "http://127.0.0.1:54709"
 
 logging.basicConfig(filename='system_health.log', level=logging.INFO, format='%(asctime)s - %(message)s')
 
-# Function to check application status# Function to check application status
+# Function to check application status
 def check_application_status():
     try:
         response = requests.get(app_url)
